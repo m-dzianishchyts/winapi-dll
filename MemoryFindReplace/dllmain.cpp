@@ -1,18 +1,21 @@
+#include <string>
+
 #include "framework.h"
+#include "MemoryFindReplace.h"
 
-BOOL APIENTRY DllMain( HMODULE hModule,
-                       DWORD  ul_reason_for_call,
-                       LPVOID lpReserved
-                     )
-{
-    switch (ul_reason_for_call)
-    {
-    case DLL_PROCESS_ATTACH:
-    case DLL_THREAD_ATTACH:
-    case DLL_THREAD_DETACH:
-    case DLL_PROCESS_DETACH:
-        break;
-    }
-    return TRUE;
+const std::string TARGET =      "Hello World!";
+const std::string REPLACEMENT = "I'm broken((";
+
+BOOL APIENTRY DllMain(HMODULE hModule, DWORD fdwReason, LPVOID lpvReserved) {
+	switch (fdwReason) {
+		case DLL_PROCESS_ATTACH:
+			MemoryFindReplace::FindReplace(TARGET.data(), TARGET.length(), REPLACEMENT.data(), REPLACEMENT.length());
+			break;
+		case DLL_THREAD_ATTACH:
+		case DLL_THREAD_DETACH:
+		case DLL_PROCESS_DETACH:
+			break;
+		default: ;
+	}
+	return TRUE;
 }
-

@@ -16,6 +16,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "DllDynamicImportTests", "Dl
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "DllInjectionTarget", "DllInjectionTarget\DllInjectionTarget.vcxproj", "{8907B150-8997-4A49-98D7-7FB956FBD760}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "DllInjectionPerformer", "DllInjectionPerformer\DllInjectionPerformer.vcxproj", "{841AD7DD-072D-46E9-8E50-751852598B56}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -56,6 +58,14 @@ Global
 		{8907B150-8997-4A49-98D7-7FB956FBD760}.Release|x64.Build.0 = Release|x64
 		{8907B150-8997-4A49-98D7-7FB956FBD760}.Release|x86.ActiveCfg = Release|Win32
 		{8907B150-8997-4A49-98D7-7FB956FBD760}.Release|x86.Build.0 = Release|Win32
+		{841AD7DD-072D-46E9-8E50-751852598B56}.Debug|x64.ActiveCfg = Debug|x64
+		{841AD7DD-072D-46E9-8E50-751852598B56}.Debug|x64.Build.0 = Debug|x64
+		{841AD7DD-072D-46E9-8E50-751852598B56}.Debug|x86.ActiveCfg = Debug|Win32
+		{841AD7DD-072D-46E9-8E50-751852598B56}.Debug|x86.Build.0 = Debug|Win32
+		{841AD7DD-072D-46E9-8E50-751852598B56}.Release|x64.ActiveCfg = Release|x64
+		{841AD7DD-072D-46E9-8E50-751852598B56}.Release|x64.Build.0 = Release|x64
+		{841AD7DD-072D-46E9-8E50-751852598B56}.Release|x86.ActiveCfg = Release|Win32
+		{841AD7DD-072D-46E9-8E50-751852598B56}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
