@@ -12,4 +12,4 @@
 ### Работы по курсу
 - [Изучение событийной архитекторы Windows-приложений](https://github.com/maxiemar/winapi-moving-sprite)
 - [Изучение вывода текста и шрифтов](https://github.com/maxiemar/winapi-text-table)
-- [Изучение создания и использования DLL](https://github.com/maxiemar/winapi-lib-and-dll)
+- [Изучение создания и использования DLL](https://github.com/maxiemar/winapi-dll)
