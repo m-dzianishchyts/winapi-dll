@@ -14,6 +14,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "MemoryFindReplace", "Memory
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "DllDynamicImportTests", "DllDynamicImportTests\DllDynamicImportTests.vcxproj", "{B1F62CD8-D08E-4C7F-A05B-D6B2792BC446}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "DllInjectionTarget", "DllInjectionTarget\DllInjectionTarget.vcxproj", "{8907B150-8997-4A49-98D7-7FB956FBD760}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -46,6 +48,14 @@ Global
 		{B1F62CD8-D08E-4C7F-A05B-D6B2792BC446}.Release|x64.Build.0 = Release|x64
 		{B1F62CD8-D08E-4C7F-A05B-D6B2792BC446}.Release|x86.ActiveCfg = Release|Win32
 		{B1F62CD8-D08E-4C7F-A05B-D6B2792BC446}.Release|x86.Build.0 = Release|Win32
+		{8907B150-8997-4A49-98D7-7FB956FBD760}.Debug|x64.ActiveCfg = Debug|x64
+		{8907B150-8997-4A49-98D7-7FB956FBD760}.Debug|x64.Build.0 = Debug|x64
+		{8907B150-8997-4A49-98D7-7FB956FBD760}.Debug|x86.ActiveCfg = Debug|Win32
+		{8907B150-8997-4A49-98D7-7FB956FBD760}.Debug|x86.Build.0 = Debug|Win32
+		{8907B150-8997-4A49-98D7-7FB956FBD760}.Release|x64.ActiveCfg = Release|x64
+		{8907B150-8997-4A49-98D7-7FB956FBD760}.Release|x64.Build.0 = Release|x64
+		{8907B150-8997-4A49-98D7-7FB956FBD760}.Release|x86.ActiveCfg = Release|Win32
+		{8907B150-8997-4A49-98D7-7FB956FBD760}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
