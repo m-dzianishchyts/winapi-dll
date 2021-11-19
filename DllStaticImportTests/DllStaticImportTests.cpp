@@ -9,7 +9,7 @@ using namespace Microsoft::VisualStudio::CppUnitTestFramework;
 
 namespace Tests {
 
-	TEST_CLASS(Tests) {
+	TEST_CLASS(DllStaticImportTests) {
 	public:
 		TEST_METHOD(FindReplace_CharArray) {
 			char const *actual = "The quick, brown fox jumps over a lazy dog.";
